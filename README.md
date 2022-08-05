@@ -1,8 +1,8 @@
-#Application Requirements:
+# Application Requirements:
     Create a REST API for an online bookstore, where the user can perform the following operations:
     1- CRUD operations on Books
     2- Checkout operation for single or multiple books which will return the total payable amount.
-#Points to consider:
+# Points to consider:
     1- You can use either Spring boot or Quarkus
     2- Book object should have the following attributes:
         o Name
@@ -16,11 +16,11 @@
     4- Promotion/Discounts is variant according to book type/classification, ex: fiction books may have
        10% discount while comic books have 0% discount.
     5- You can use any persistence method for Books (i.e. in memory, database, etc.)
-#Deliverable:
+# Deliverable:
     1- Open API spec for your REST service.
     2- Unit tests for all operations
     3- Able to run it both locally (from terminal) and to run it on docker container.
-#Setup And Build
+# Setup And Build
     1- Import the project as a maven project.
     2- Clean and build the project through maven.
     3- Run the BookStoreApplication.java for starting the project.
@@ -29,15 +29,15 @@
     Command line:
     mvn clean install (for clean install)
     mvn test (for running test)
-#Technologies Used
+# Technologies Used
     1- Spring Boot
     2- Swagger open api
     3- Lombok
     4- H2 in memory DB
     5- Spring data jpa
-#URL for swagger open api
+# URL for swagger open api
     http://localhost:8080/swagger-ui.html
-#Sample URL & Requests for Testing
+# Sample URL & Requests for Testing
     PUT: http://localhost:8080/api/bookstore
     {
       "id": 0,
@@ -87,6 +87,6 @@
     GET: http://localhost:8080/api/bookstore/all
     GET: http://localhost:8080/api/bookstore/{id}
     DELET: http://localhost:8080/api/bookstore/{id}
-#Focused Area
+# Focused Area
     Modern Technologies
     Scalable Architecture and simple design
